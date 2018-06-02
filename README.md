@@ -5,7 +5,7 @@ analyzed in the [previous section](https://eagronin.github.io/credit-card-fraud-
 
 The precision recall curve is plotted below:  
 
-![](https://github.com/eagronin/credit-card-fraud-analyze/blob/master/precision_recall.png?raw=true)
+![](https://github.com/eagronin/credit-card-fraud-report/blob/master/precision_recall.png?raw=true)
 
 As discussed in the example in the 
 [previous section](https://eagronin.github.io/credit-card-fraud-analyze/), it shows that 
@@ -16,7 +16,7 @@ being predicted incorrectly.
 
 The ROC curve is plotted below:
 
-![](https://github.com/eagronin/credit-card-fraud-analyze/blob/master/roc.png?raw=true)
+![](https://github.com/eagronin/credit-card-fraud-report/blob/master/roc.png?raw=true)
 
 As discussed in the example in the 
 [previous section](https://eagronin.github.io/credit-card-fraudr-analyze/), it shows that 
@@ -26,5 +26,5 @@ predicted to be fraudulent, only 7.9 percent are indeed fraudulent).
 
 Finally, the figure below draws a heatmap that visualizes the results of the grid search.  As shown in the [previous section](https://eagronin.github.io/credit-card-fraud-analyze/), the best fit for the logistic regression is obtained using L2 penalty and C = 0.062 which falls within the lightest-colored area under L2 of the heat map (i.e., the area corresponding to the highest recall).
 
-![](https://github.com/eagronin/credit-card-fraud-analyze/blob/master/heat_map.png?raw=true)<br/>
+![](https://github.com/eagronin/credit-card-fraud-report/blob/master/heat_map.png?raw=true)<br/>
 Previous step: [Analysis](https://eagronin.github.io/credit-card-fraud-analyze/).
