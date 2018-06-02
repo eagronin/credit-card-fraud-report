@@ -1,13 +1,12 @@
 # Results
 
-This section visualizes and discusses the model evaluation metrics for detecting fraud in credit card transactions
-analyzed in the [previous section](https://eagronin.github.io/credit-card-fraud-analyze/).  
+This section visualizes and discusses evaluation metrics for the credit card fraud detection models that have been analyzed in the [previous section](https://eagronin.github.io/credit-card-fraud-analyze/).  
 
 The precision recall curve is plotted below:  
 
 ![](https://github.com/eagronin/credit-card-fraud-report/blob/master/precision_recall.png?raw=true)
 
-As discussed in the example in the 
+As discussed in an example in the 
 [previous section](https://eagronin.github.io/credit-card-fraud-analyze/), it shows that 
 the recall of 0.81 can be achieved with a relatively moderate cost in terms of precision, which is 0.95 
 at such a level of recall.  This means that the model is effective in predicting fraud (81 percent of fraudulent
@@ -18,7 +17,7 @@ The ROC curve is plotted below:
 
 ![](https://github.com/eagronin/credit-card-fraud-report/blob/master/roc.png?raw=true)
 
-As discussed in the example in the 
+As discussed in an example in the 
 [previous section](https://eagronin.github.io/credit-card-fraudr-analyze/), it shows that 
 the recall (or the true positive rate) of 95 percent can be achieved when the false positive rate is 16 percent.  
 However, in this case the precision is going to decline to only 7.9 percent (meaning that of all the transactions 
