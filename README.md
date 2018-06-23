@@ -1,6 +1,14 @@
 # Results
 
+## Overview
+
 This section visualizes and discusses evaluation metrics for the credit card fraud detection models analyzed in the [previous section](https://eagronin.github.io/credit-card-fraud-analyze/).  
+
+This project is based on assignments from Applied Machine Learning in Python by University of Michigan on Coursera.
+
+The analysis for this project was performed in Python.
+
+## Results and Discussion
 
 The precision-recall curve is plotted below:  
 
